@@ -14,9 +14,8 @@ CREATE TABLE `b` (
 
 
 CREATE TABLE `c` (
-  `cID` int(1) NOT NULL AUTO_INCREMENT,
+  `cID` int(1) NOT NULL ,
   `cAddress` char(20) DEFAULT NULL,
-  PRIMARY KEY (`cID`)
-) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-##后验证条件:无  
+##后验证条件:无
